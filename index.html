@@ -2,10 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;url=https://example.com/new-page">
+    <!-- <meta http-equiv="refresh" content="0;url=https://example.com/new-page"> -->
     <title>Redirecting...</title>
 </head>
 <body>
-    <p>If you are not redirected, <a href="https://example.com/new-page">click here</a>.</p>
+    <!-- <p>If you are not redirected, <a href="https://example.com/new-page">click here</a>.</p> -->\
+    <script>
+        var fullLink = window.location.href
+        
+        console.log(fullLink)
+    </script>
 </body>
 </html>
